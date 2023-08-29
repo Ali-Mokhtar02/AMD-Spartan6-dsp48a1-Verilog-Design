@@ -1,0 +1,5 @@
+vlib work
+vlog Project1.v reg_mux_block.v Project1_Testbench.v
+vsim -voptargs=+acc work.Project1_tb
+add wave *
+run -all
